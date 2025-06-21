@@ -20,3 +20,15 @@ This project demonstrates the use of DOM manipulation, form handling, conditiona
 
 ✅ Color-coded list items based on the category
 ```
+
+<br>
+
+```
+🛠 Technologies Used
+HTML5 – for structuring the form and expense list
+
+CSS3 – for styling categories (classes: rent-expense, entertainment-expense, groceries-expense)
+
+Vanilla JavaScript – for DOM manipulation and core logic
+
+```
