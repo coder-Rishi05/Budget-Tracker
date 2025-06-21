@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Budget Tracker</h1>
+        <form id="budget-form">
+
+            <label for="Desc">Description</label>
+            <input type="text" id="Description"  placeholder="Expense Description" >
+            <span id="description-error" class="error-message" ></span>
+
+            <label for="Desc">Amount</label>
+            <input type="number" id="amt"  placeholder="Expense Amount" >
+
+
+            <label for="Category">Category</label>
+            <select id="Category">
+                <option class="ctg-option" value="Groceries">Groceries</option>
+                <option class="ctg-option" value="Rent">Rent</option>
+                <option class="ctg-option" value="Entertainment">Entertainment</option>
+
+            </select>
+
+            <button id="Expense">Add Expense</button>
+        </form>
+
+        <ul class="expense-list">
+           
+        </ul>
+    </div>
+</body>
+
+</html>

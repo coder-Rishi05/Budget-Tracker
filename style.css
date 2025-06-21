@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html
+   ,body {
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 2rem;
+}
+
+form{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+}
+
+input,select{
+    padding: 10px ;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button{
+    padding: 10px;
+    background-color: #28a749;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: #1fba48;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+li{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
+}
+
+.rent-expense {
+    background-color: lightcoral;
+}
+
+.groceries-expense{
+    background-color: lightgreen;
+}
+
+.entertainment-expense {
+    background-color: lightblue;
+}
+
+.error-message{
+    color: red;
+    font-size: .9rem;
+    margin-top: 3px;
+    display: none;
+    padding-left: 4px;
+    text-transform: capitalize;
+}
