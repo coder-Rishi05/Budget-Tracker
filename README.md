@@ -8,7 +8,7 @@ This project demonstrates the use of DOM manipulation, form handling, conditiona
 ```
 <br>
 
-# 🚀Live link : https://budget-tacker.netlify.app/
+ 🚀Live link : https://budget-tacker.netlify.app/
 
 ```
 🚀 Features
