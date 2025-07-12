@@ -1,4 +1,4 @@
-### 💰 Budget Tracker – JavaScript Project
+### 💰 Budget Tracker / Expense tracker – JavaScript Project
 
 ```
 This is a simple Budget Tracker application built using HTML, CSS, and JavaScript.
